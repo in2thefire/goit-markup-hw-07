@@ -1,6 +1,7 @@
 .occupation {
   padding-top: 0;
 }
+
 .occupation-tittle {
   color: var(--second-color);
   font-size: 36px;
@@ -15,15 +16,19 @@
   display: flex;
   align-items: center;
 }
+
 .occupation-item {
   margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
-.occupation-item:last-child {
-  margin-right: 0;
-}
+
 .occupation-cover {
   position: relative;
 }
+
 .occupation-text {
   position: absolute;
   bottom: 0;
