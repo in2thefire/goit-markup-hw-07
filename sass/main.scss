@@ -1,0 +1,17 @@
+@import './utils/vars';
+@import './base/reset';
+@import './base/common.scss';
+@import './utils/hidden.scss';
+
+@import './components/container';
+@import './components/modal-form';
+@import './components/footer-form';
+
+@import './layouts/header';
+@import './layouts/studio/hero';
+@import './layouts/studio/features';
+@import './layouts/studio/occupation';
+@import './layouts/studio/team';
+@import './layouts/studio/clients';
+@import './layouts/portfolio/gallery';
+@import './layouts/footer';
