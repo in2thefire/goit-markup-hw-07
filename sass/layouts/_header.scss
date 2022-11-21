@@ -1,12 +1,14 @@
 .header {
   border-bottom: 1px solid #ececec;
 }
-
-.head-logo {
+.header-flex {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
   margin-right: 93px;
   padding: 25px 0;
 }
-
 .logo {
   color: var(--accent-color);
 
@@ -16,11 +18,9 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-
-.header-logo {
+.logo_black {
   color: var(--black);
 }
-
 .current::after {
   position: absolute;
   content: '';
@@ -31,17 +31,10 @@
   background: var(--accent-color);
   border-radius: 2px;
 }
-
-.head-flex {
-  display: flex;
-  align-items: center;
-}
-
-.header-nav-list {
+.nav-menu__list {
   display: flex;
 }
-
-.header-nav-link {
+.nav-menu__link {
   position: relative;
   color: var(--second-color);
   padding: 34px 0;
@@ -53,27 +46,23 @@
     color: var(--accent-color);
   }
 }
-
-.header-nav-item {
+.nav-menu__item {
   margin-right: 50px;
   &:last-child {
     margin-right: 0;
   }
 }
-
-.header-contacts-list {
+.contacts-list {
   display: flex;
   margin-left: auto;
 }
-
-.header-contacts-item {
+.contacts__item {
   margin-right: 50px;
   &:last-child {
     margin-right: 0;
   }
 }
-
-.header-contacts-link {
+.contacts__link {
   display: flex;
   align-items: center;
   color: currentColor;
@@ -82,13 +71,11 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
-.mail-icon {
+.contacts__mail-icon {
   margin-right: 10px;
   fill: currentColor;
 }
-
-.phone-icon {
+.contacts__phone-icon {
   margin-right: 10px;
   fill: currentColor;
 }

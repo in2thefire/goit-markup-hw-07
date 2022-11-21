@@ -2,7 +2,7 @@
   padding-top: 0;
 }
 
-.occupation-tittle {
+.img-cards__tittle {
   color: var(--second-color);
   font-size: 36px;
   line-height: 1.16;
@@ -12,12 +12,12 @@
   margin-bottom: 50px;
 }
 
-.occupation-list {
+.img-cards__list {
   display: flex;
   align-items: center;
 }
 
-.occupation-item {
+.img-cards__item {
   margin-right: 30px;
 
   &:last-child {
@@ -25,11 +25,11 @@
   }
 }
 
-.occupation-cover {
+.img-cards__cover {
   position: relative;
 }
 
-.occupation-text {
+.img-cards__text {
   position: absolute;
   bottom: 0;
   font-weight: 700;
